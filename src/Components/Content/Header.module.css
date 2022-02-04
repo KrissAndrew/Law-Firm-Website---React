@@ -1,0 +1,117 @@
+.HeaderContainer {
+  height: 100vh;
+}
+
+.Header {
+  background-color: rgba(24, 24, 68, 0.644);
+  width: 40%;
+  z-index: 49;
+  height: 100%;
+}
+
+.HeadText {
+  color: #fff;
+  position: relative;
+  top: 40%;
+  margin-left: 35%;
+  width: 50%;
+  animation: fadeIn 5s;
+}
+
+.Heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 35pt;
+  margin: 0;
+  line-height: 40px;
+}
+
+.HeadingLower {
+  font-size: 30pt;
+  font-weight: 200;
+}
+
+.Header p {
+  font-size: 15pt;
+  font-family: "Raleway", sans-serif;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .HeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Header {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+  }
+  .HeadText {
+    margin: auto;
+    top: 0;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Header {
+    width: 90%;
+  }
+}
+
+/* .HeadText {
+  color: #fff;
+  position: relative;
+  top: 40%;
+  margin-left: 35%;
+  width: 50%;
+  animation: fadeIn 5s;
+} */

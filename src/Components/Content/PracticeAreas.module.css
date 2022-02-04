@@ -1,0 +1,49 @@
+.Practice {
+  background-color: rgb(240, 240, 240);
+  height: 60vh;
+  z-index: 50;
+  color: rgb(27, 46, 110);
+  width: 100vw;
+}
+
+.Heading {
+  background-color: rgba(200, 242, 255, 0.3);
+  width: 40%;
+  font-size: 35pt;
+  height: 60vh;
+}
+
+.HeadText {
+  line-height: 40px;
+  position: relative;
+  top: 40%;
+  margin-left: 35%;
+  width: 50%;
+}
+
+.Items_Container {
+  position: relative;
+  left: 45rem;
+  top: -4rem;
+  display: flex;
+}
+
+.Title {
+  font-size: 15pt;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.Content {
+  font-size: 12pt;
+}
+
+.row {
+  display: flex; /* equal height of the children */
+  height: 30%;
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  padding: 2rem;
+}

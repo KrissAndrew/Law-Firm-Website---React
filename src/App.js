@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./Components/NavBar";
+import Header from "./Components/Content/Header";
+import { Parallax } from "react-parallax";
+import PracticeArea from "./Components/Content/PracticeAreas";
+import Vision from "./Components/Content/Vision";
+import Attorneys from "./Components/Content/Attorneys";
+
+import meetingImg from ".//meetingimg.jpg";
+import FormSection from "./Components/Content/FormSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Header />
+      <PracticeArea />
+      <Vision />
+      <Parallax
+        blur={1}
+        bgImage={meetingImg}
+        bgImageAlt="Business people doing business things"
+        strength={500}
+      >
+        <div style={{ height: "80vh" }}></div>
+      </Parallax>
+      <Attorneys />
+      <FormSection />
     </div>
   );
 }
