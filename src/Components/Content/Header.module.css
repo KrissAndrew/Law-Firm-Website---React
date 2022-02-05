@@ -1,3 +1,7 @@
+.Back {
+  margin-top: 4.25rem;
+}
+
 .HeaderContainer {
   height: 100vh;
 }
@@ -106,12 +110,3 @@
     width: 90%;
   }
 }
-
-/* .HeadText {
-  color: #fff;
-  position: relative;
-  top: 40%;
-  margin-left: 35%;
-  width: 50%;
-  animation: fadeIn 5s;
-} */

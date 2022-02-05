@@ -10,7 +10,7 @@ import FormSection from "./Components/Content/FormSection";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Header />
       <PracticeArea />
@@ -25,7 +25,7 @@ function App() {
       </Parallax>
       <Attorneys />
       <FormSection />
-    </div>
+    </>
   );
 }
 

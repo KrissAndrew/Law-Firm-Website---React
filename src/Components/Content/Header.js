@@ -10,9 +10,9 @@ const Header = () => {
       strength={500}
       bgImage={bg1}
       bgImageStyle={{
-        height: "110vh",
-        width: "100vw",
         marginTop: "4.25rem",
+        maxHeight: "100vh",
+        minWidth: "100vw",
       }}
     >
       <header className={classes.HeaderContainer}>

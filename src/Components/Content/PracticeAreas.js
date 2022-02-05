@@ -38,41 +38,38 @@ const PracticeArea = () => {
     <div className={classes.Practice}>
       <div className={classes.Heading}>
         <div className={classes.HeadText}>
-          <b>Practice</b>
-          <br /> Areas
+          <b>Practice</b> Areas
         </div>
-        <div className={classes.Items_Container}>
-          <div className={classes.Practice_Items}>
-            <div className={classes.row}>
-              <div className={classes.col}>
-                <div className={classes.Title}>{listItems[0].title}</div>
-                <div className={classes.Content}>{listItems[0].content}</div>
-              </div>
-              <div className={classes.col}>
-                <div className={classes.Title}>{listItems[1].title}</div>
-                <div className={classes.Content}>{listItems[1].content}</div>
-              </div>
-            </div>
-            <div className={classes.row}>
-              <div className={classes.col}>
-                <div className={classes.Title}>{listItems[2].title}</div>
-                <div className={classes.Content}>{listItems[2].content}</div>
-              </div>
-              <div className={classes.col}>
-                <div className={classes.Title}>{listItems[3].title}</div>
-                <div className={classes.Content}>{listItems[3].content}</div>
-              </div>
-            </div>
-            <div className={classes.row}>
-              <div className={classes.col}>
-                <div className={classes.Title}>{listItems[4].title}</div>
-                <div className={classes.Content}>{listItems[4].content}</div>
-              </div>
-              <div className={classes.col}>
-                <div className={classes.Title}>{listItems[5].title}</div>
-                <div className={classes.Content}>{listItems[5].content}</div>
-              </div>
-            </div>
+      </div>
+      <div className={classes.Items_Container}>
+        <div className={classes.row}>
+          <div className={classes.col}>
+            <div className={classes.Title}>{listItems[0].title}</div>
+            <div className={classes.Content}>{listItems[0].content}</div>
+          </div>
+          <div className={classes.col}>
+            <div className={classes.Title}>{listItems[1].title}</div>
+            <div className={classes.Content}>{listItems[1].content}</div>
+          </div>
+        </div>
+        <div className={classes.row}>
+          <div className={classes.col}>
+            <div className={classes.Title}>{listItems[2].title}</div>
+            <div className={classes.Content}>{listItems[2].content}</div>
+          </div>
+          <div className={classes.col}>
+            <div className={classes.Title}>{listItems[3].title}</div>
+            <div className={classes.Content}>{listItems[3].content}</div>
+          </div>
+        </div>
+        <div className={classes.row}>
+          <div className={classes.col}>
+            <div className={classes.Title}>{listItems[4].title}</div>
+            <div className={classes.Content}>{listItems[4].content}</div>
+          </div>
+          <div className={classes.col}>
+            <div className={classes.Title}>{listItems[5].title}</div>
+            <div className={classes.Content}>{listItems[5].content}</div>
           </div>
         </div>
       </div>
