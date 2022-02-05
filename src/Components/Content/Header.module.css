@@ -1,7 +1,4 @@
-.Back {
-  margin-top: 4.25rem;
-}
-
+/* Dictates parallax height */
 .HeaderContainer {
   height: 100vh;
 }
@@ -11,6 +8,12 @@
   width: 40%;
   z-index: 49;
   height: 100%;
+}
+.Heading {
+  font-weight: bold;
+  font-size: 35pt;
+  margin: 0;
+  line-height: 40px;
 }
 
 .HeadText {
@@ -22,14 +25,6 @@
   animation: fadeIn 5s;
 }
 
-.Heading {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 35pt;
-  margin: 0;
-  line-height: 40px;
-}
-
 .HeadingLower {
   font-size: 30pt;
   font-weight: 200;
@@ -37,9 +32,9 @@
 
 .Header p {
   font-size: 15pt;
-  font-family: "Raleway", sans-serif;
 }
 
+/* Fade in text effect */
 @keyframes fadeIn {
   0% {
     opacity: 0;
