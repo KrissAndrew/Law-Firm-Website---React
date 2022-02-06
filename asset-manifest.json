@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Law-Firm-Website---React/static/css/main.bc417298.css",
+    "main.js": "/Law-Firm-Website---React/static/js/main.181b288d.js",
+    "static/media/meetingimg.jpg": "/Law-Firm-Website---React/static/media/meetingimg.f2e75bcd7c3b8fe363cd.jpg",
+    "index.html": "/Law-Firm-Website---React/index.html",
+    "main.bc417298.css.map": "/Law-Firm-Website---React/static/css/main.bc417298.css.map",
+    "main.181b288d.js.map": "/Law-Firm-Website---React/static/js/main.181b288d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc417298.css",
+    "static/js/main.181b288d.js"
+  ]
+}
