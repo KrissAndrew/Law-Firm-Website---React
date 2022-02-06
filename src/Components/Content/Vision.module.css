@@ -2,12 +2,9 @@
   background-color: rgb(37, 49, 105);
   color: #fff;
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 60;
   width: 100vw;
 }
 
@@ -18,9 +15,17 @@
 .Heading {
   font-size: 35pt;
   font-weight: bold;
-  padding-bottom: 3.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .VisionText {
   font-size: 15pt;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Content {
+    width: 90%;
+  }
 }
