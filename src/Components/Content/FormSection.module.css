@@ -4,7 +4,6 @@
 
 .FormSection {
   background-color: rgba(34, 65, 151, 0.719);
-
   height: 100vh;
   z-index: 50;
   color: #fff;
@@ -14,7 +13,6 @@
 
 .Heading {
   background-color: rgba(24, 24, 68, 0.644);
-
   color: #fff;
   position: relative;
   width: 40%;
@@ -39,4 +37,11 @@
 .ContactText {
   font-size: 18pt;
   line-height: 40px;
+}
+
+@media screen and (max-width: 980px) {
+  .Heading {
+    width: 100%;
+    height: 40%;
+  }
 }

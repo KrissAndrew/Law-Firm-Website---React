@@ -5,7 +5,7 @@ import PracticeArea from "./Components/Content/PracticeAreas";
 import Vision from "./Components/Content/Vision";
 import Attorneys from "./Components/Content/Attorneys";
 
-import meetingImg from ".//meetingimg.jpg";
+import meetingImg from ".//meetingimg.png";
 import FormSection from "./Components/Content/FormSection";
 
 function App() {
@@ -16,8 +16,11 @@ function App() {
       <PracticeArea />
       <Vision />
       <Parallax
-        blur={1}
         bgImage={meetingImg}
+        bgImageStyle={{
+          maxHeight: "100vh",
+          minWidth: "100vw",
+        }}
         bgImageAlt="Business people doing business things"
         strength={500}
       >

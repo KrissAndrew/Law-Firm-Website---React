@@ -22,7 +22,7 @@ const FormSection = () => {
             <br />
             <b>Email: </b>K&ALaw@gmail.com
             <br />
-            <b>Tel: </b>0-404-801-362
+            <b>Tel: </b>0-123-456-789
           </div>
         </div>
         <div className={classes.FormSection}></div>
