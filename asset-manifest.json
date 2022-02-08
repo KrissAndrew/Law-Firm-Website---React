@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Law-Firm-Website---React/static/css/main.bc417298.css",
-    "main.js": "/Law-Firm-Website---React/static/js/main.181b288d.js",
-    "static/media/meetingimg.jpg": "/Law-Firm-Website---React/static/media/meetingimg.f2e75bcd7c3b8fe363cd.jpg",
+    "main.css": "/Law-Firm-Website---React/static/css/main.7910287c.css",
+    "main.js": "/Law-Firm-Website---React/static/js/main.5cbfac48.js",
+    "static/media/meetingimg.png": "/Law-Firm-Website---React/static/media/meetingimg.42b5d340ce93c36ac689.png",
     "index.html": "/Law-Firm-Website---React/index.html",
-    "main.bc417298.css.map": "/Law-Firm-Website---React/static/css/main.bc417298.css.map",
-    "main.181b288d.js.map": "/Law-Firm-Website---React/static/js/main.181b288d.js.map"
+    "main.7910287c.css.map": "/Law-Firm-Website---React/static/css/main.7910287c.css.map",
+    "main.5cbfac48.js.map": "/Law-Firm-Website---React/static/js/main.5cbfac48.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc417298.css",
-    "static/js/main.181b288d.js"
+    "static/css/main.7910287c.css",
+    "static/js/main.5cbfac48.js"
   ]
 }
