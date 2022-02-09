@@ -5,8 +5,8 @@ import PracticeArea from "./Components/Content/PracticeAreas";
 import Vision from "./Components/Content/Vision";
 import Attorneys from "./Components/Content/Attorneys";
 
-import meetingImg from ".//meetingimg.png";
-import FormSection from "./Components/Content/FormSection";
+import meetingImg from "./assets//meetingimg.png";
+import ContactSection from "./Components/Content/ContactSection";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <div style={{ height: "80vh" }}></div>
       </Parallax>
       <Attorneys />
-      <FormSection />
+      <ContactSection />
     </>
   );
 }

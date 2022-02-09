@@ -1,8 +1,9 @@
-import classes from "./FormSection.module.css";
+import classes from "./ContactSection.module.css";
 import { Parallax, Background } from "react-parallax";
 
-const bg1 =
-  "https://images.unsplash.com/photo-1461695008884-244cb4543d74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2831&q=80";
+import ContactForm from "./ContactForm";
+
+import bg1 from "../../assets//artisticBuildingImage.png";
 
 const FormSection = () => {
   return (
@@ -24,8 +25,8 @@ const FormSection = () => {
             <br />
             <b>Tel: </b>0-123-456-789
           </div>
+          <ContactForm />
         </div>
-        <div className={classes.FormSection}></div>
       </div>
     </Parallax>
   );
