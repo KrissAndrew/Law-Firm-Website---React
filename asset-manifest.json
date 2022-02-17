@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Law-Firm-Website---React/static/css/main.f3bcbf9a.css",
+    "main.css": "/Law-Firm-Website---React/static/css/main.82584be7.css",
     "main.js": "/Law-Firm-Website---React/static/js/main.b7826acf.js",
     "static/media/meetingimg.png": "/Law-Firm-Website---React/static/media/meetingimg.42b5d340ce93c36ac689.png",
     "static/media/brisbaneCity.png": "/Law-Firm-Website---React/static/media/brisbaneCity.75ce955575e24ac883e4.png",
     "static/media/artisticBuildingImage.png": "/Law-Firm-Website---React/static/media/artisticBuildingImage.1477b443582d786f2756.png",
     "index.html": "/Law-Firm-Website---React/index.html",
-    "main.f3bcbf9a.css.map": "/Law-Firm-Website---React/static/css/main.f3bcbf9a.css.map",
+    "main.82584be7.css.map": "/Law-Firm-Website---React/static/css/main.82584be7.css.map",
     "main.b7826acf.js.map": "/Law-Firm-Website---React/static/js/main.b7826acf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3bcbf9a.css",
+    "static/css/main.82584be7.css",
     "static/js/main.b7826acf.js"
   ]
 }
