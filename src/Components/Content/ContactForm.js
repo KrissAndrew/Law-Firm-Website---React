@@ -99,77 +99,81 @@ const ContactForm = (props) => {
 
   return (
     <form onSubmit={formSubmitHandler}>
-      <div className="control-group">
-        <div className={nameInputClasses}>
-          <label htmlFor="name">First Name</label>
-          <input
-            type="text"
-            id="name"
-            value={enteredName}
-            onChange={nameChangeHandler}
-            onBlur={nameBlurHandler}
-          />
-          {enteredNameHasError && (
-            <p className="error-text">Name Must not be Empty</p>
-          )}
+      <div className="contactForm">
+        <div className="control-group">
+          <div className={nameInputClasses}>
+            <label htmlFor="name">First Name</label>
+            <input
+              type="text"
+              id="name"
+              value={enteredName}
+              onChange={nameChangeHandler}
+              onBlur={nameBlurHandler}
+            />
+            {enteredNameHasError && (
+              <p className="error-text">Name Must not be Empty</p>
+            )}
+          </div>
+          <div className={surnameInputClasses}>
+            <label htmlFor="name">Last Name</label>
+            <input
+              type="text"
+              id="name"
+              value={enteredSurname}
+              onChange={surnameChangeHandler}
+              onBlur={surnameBlurHandler}
+            />
+            {enteredSurnameHasError && (
+              <p className="error-text">Last Name Must not be Empty</p>
+            )}
+          </div>
+          <div className={emailInputClasses}>
+            <label htmlFor="name">E-Mail Address</label>
+            <input
+              type="text"
+              id="name"
+              value={enteredEmail}
+              onChange={emailChangeHandler}
+              onBlur={emailBlurHandler}
+            />
+            {enteredEmailHasError && (
+              <p className="error-text">Email Must Be Valid</p>
+            )}
+          </div>
+          <div className={subjectInputClasses}>
+            <label htmlFor="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              value={enteredSubject}
+              onChange={subjectChangeHandler}
+              onBlur={subjectBlurHandler}
+            />
+            {enteredSubjectHasError && (
+              <p className="error-text">Subject Must Not be Empty</p>
+            )}
+          </div>
         </div>
-        <div className={surnameInputClasses}>
-          <label htmlFor="name">Last Name</label>
-          <input
-            type="text"
-            id="name"
-            value={enteredSurname}
-            onChange={surnameChangeHandler}
-            onBlur={surnameBlurHandler}
-          />
-          {enteredSurnameHasError && (
-            <p className="error-text">Last Name Must not be Empty</p>
-          )}
-        </div>
-        <div className={emailInputClasses}>
-          <label htmlFor="name">E-Mail Address</label>
-          <input
-            type="text"
-            id="name"
-            value={enteredEmail}
-            onChange={emailChangeHandler}
-            onBlur={emailBlurHandler}
-          />
-          {enteredEmailHasError && (
-            <p className="error-text">Email Must Be Valid</p>
-          )}
-        </div>
-        <div className={subjectInputClasses}>
-          <label htmlFor="subject">Subject</label>
-          <input
-            type="text"
-            id="subject"
-            value={enteredSubject}
-            onChange={subjectChangeHandler}
-            onBlur={subjectBlurHandler}
-          />
-          {enteredSubjectHasError && (
-            <p className="error-text">Subject Must Be Valid</p>
-          )}
-        </div>
-        <div className="form-actions">
-          <button disabled={!formIsValid}>Submit</button>
+        <div className="control-group">
+          <div className={messageInputClasses}>
+            <label htmlFor="message">Message</label>
+            <textarea
+              type="text"
+              id="message"
+              value={enteredMessage}
+              onChange={messageChangeHandler}
+              onBlur={messageBlurHandler}
+              rows="14"
+              cols="40"
+            />
+            {enteredMessageHasError && (
+              <p className="error-text">Message Must Not be Empty</p>
+            )}
+          </div>
         </div>
       </div>
-      <div className={messageInputClasses}>
-        <label htmlFor="message">Message</label>
-        <textarea
-          type="text"
-          id="message"
-          value={enteredMessage}
-          onChange={messageChangeHandler}
-          onBlur={messageBlurHandler}
-          rows="15"
-          cols="40"
-        />
-        {enteredMessageHasError && (
-          <p className="error-text">Message Must Be Valid</p>
-        )}
+      <div className="form-actions">
+        <button disabled={!formIsValid}>Submit</button>
       </div>
     </form>
   );
