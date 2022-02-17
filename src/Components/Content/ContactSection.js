@@ -68,10 +68,10 @@ const FormSection = () => {
       {mapIsShowing && (
         <div className={classes.contactSectionMap} id="contact">
           <div className={classes.mapContainer}>
-            <div className={classes.map} ref={mapRef}></div>
             <div onClick={hideMapHandler} className={classes.location}>
               Return to contact
             </div>
+            <div className={classes.map} ref={mapRef}></div>
           </div>
         </div>
       )}
