@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Law-Firm-Website---React/static/css/main.c628fe60.css",
-    "main.js": "/Law-Firm-Website---React/static/js/main.110ed79a.js",
+    "main.css": "/Law-Firm-Website---React/static/css/main.1ee77589.css",
+    "main.js": "/Law-Firm-Website---React/static/js/main.53b5d026.js",
     "static/media/meetingimg.png": "/Law-Firm-Website---React/static/media/meetingimg.42b5d340ce93c36ac689.png",
     "static/media/brisbaneCity.png": "/Law-Firm-Website---React/static/media/brisbaneCity.75ce955575e24ac883e4.png",
     "static/media/artisticBuildingImage.png": "/Law-Firm-Website---React/static/media/artisticBuildingImage.1477b443582d786f2756.png",
     "index.html": "/Law-Firm-Website---React/index.html",
-    "main.c628fe60.css.map": "/Law-Firm-Website---React/static/css/main.c628fe60.css.map",
-    "main.110ed79a.js.map": "/Law-Firm-Website---React/static/js/main.110ed79a.js.map"
+    "main.1ee77589.css.map": "/Law-Firm-Website---React/static/css/main.1ee77589.css.map",
+    "main.53b5d026.js.map": "/Law-Firm-Website---React/static/js/main.53b5d026.js.map"
   },
   "entrypoints": [
-    "static/css/main.c628fe60.css",
-    "static/js/main.110ed79a.js"
+    "static/css/main.1ee77589.css",
+    "static/js/main.53b5d026.js"
   ]
 }
