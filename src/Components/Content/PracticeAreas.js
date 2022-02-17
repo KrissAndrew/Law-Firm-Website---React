@@ -35,7 +35,7 @@ const listItems = [
 
 const PracticeArea = () => {
   return (
-    <div className={classes.Practice}>
+    <div className={classes.Practice} id="practice">
       <div className={classes.Heading}>
         <div className={classes.HeadText}>
           <b>Practice</b> Areas

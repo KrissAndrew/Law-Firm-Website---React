@@ -2,8 +2,10 @@ import classes from "./NavBar.module.css";
 import logo from "./logo.png";
 import React, { useState, useEffect } from "react";
 
+import { CSSTransition } from "react-transition-group";
+
 const NavBar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(true);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleNav = () => {
@@ -17,10 +19,14 @@ const NavBar = () => {
 
     window.addEventListener("resize", changeWidth);
 
+    if (screenWidth > 810) {
+      setToggleMenu(false);
+    }
+
     return () => {
       window.removeEventListener("resize", changeWidth);
     };
-  }, []);
+  }, [screenWidth]);
 
   return (
     <nav className={classes.Navbar} id="Navbar">
@@ -30,27 +36,53 @@ const NavBar = () => {
         </div>
         <div>Kriss & Andrew LLP</div>
       </div>
-      {(toggleMenu || screenWidth > 810) && (
+      {screenWidth > 810 && (
         <div className={classes.NavList}>
           <ul>
-            <a href="/">
+            <a href="#home">
               <li>Home</li>
             </a>
-            <a href="/">
+            <a href="#practice">
               <li>Practice Areas</li>
             </a>
-            <a href="/">
+            <a href="#vision">
               <li>Our Vision</li>
             </a>
-            <a href="/">
+            <a href="#attorneys">
               <li>Attorneys</li>
             </a>
-            <a href="/">
+            <a href="#contact">
               <li>Contact</li>
             </a>
           </ul>
         </div>
       )}
+      <CSSTransition
+        in={toggleMenu}
+        timeout={200}
+        classNames="nav-transition"
+        unmountOnExit
+      >
+        <div className={classes.NavList}>
+          <ul>
+            <a onClick={() => setToggleMenu(false)} href="#home">
+              <li>Home</li>
+            </a>
+            <a onClick={() => setToggleMenu(false)} href="#practice">
+              <li>Practice Areas</li>
+            </a>
+            <a onClick={() => setToggleMenu(false)} href="#vision">
+              <li>Our Vision</li>
+            </a>
+            <a onClick={() => setToggleMenu(false)} href="#attorneys">
+              <li>Attorneys</li>
+            </a>
+            <a onClick={() => setToggleMenu(false)} href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+      </CSSTransition>
       <img
         className={classes.btn}
         onClick={toggleNav}

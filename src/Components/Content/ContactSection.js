@@ -11,7 +11,7 @@ const FormSection = () => {
       <Background className={classes.Back}>
         <img src={bg1} alt="city" />
       </Background>
-      <div className={classes.FormSection}>
+      <div className={classes.FormSection} id="contact">
         <div className={classes.Heading}>
           <div className={classes.HeadText}>Contact Kriss & Andrew</div>
         </div>

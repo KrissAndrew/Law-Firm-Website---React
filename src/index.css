@@ -9,4 +9,24 @@ body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-padding-top: 10vh; /* height of nav, helps line things up */
+}
+
+/* Smaller screen navbar CSS-transition classes - refer to NavBar.js*/
+.nav-transition-enter {
+  opacity: 0;
+}
+
+.nav-transition-enter-active {
+  opacity: 1;
+  transition: all 300ms;
+}
+
+.nav-transition-left-exit {
+  opacity: 1;
+}
+
+.nav-transition-exit-active {
+  opacity: 0;
+  transition: all 300ms;
 }

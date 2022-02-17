@@ -15,6 +15,7 @@
 }
 
 .form-control input,
+.form-control textarea,
 .form-control label {
   display: block;
 }
@@ -26,6 +27,7 @@
 }
 
 .form-control input,
+.form-control textarea,
 .form-control select {
   font: inherit;
   padding: 0.5rem;
@@ -35,7 +37,8 @@
   max-width: 100%;
 }
 
-.form-control input:focus {
+.form-control input:focus,
+.form-control textarea:focus {
   outline: none;
   border-color: #240370;
   background-color: #e0d4fd;
@@ -74,12 +77,14 @@ button:disabled:active {
   width: 100%;
 }
 
-.invalid input {
+.invalid input,
+.invalid textarea {
   border: 1px solid #b40e0e;
   background-color: #fddddd;
 }
 
-.invalid input:focus {
+.invalid input:focus,
+.invalid textarea:focus {
   border-color: #ff8800;
   background-color: #fbe8d2;
 }

@@ -14,7 +14,7 @@ const Header = () => {
         minWidth: "100vw",
       }}
     >
-      <header className={classes.HeaderContainer}>
+      <header className={classes.HeaderContainer} id="home">
         <div className={classes.Header}>
           <div className={classes.HeadText}>
             <div className={classes.Heading}>

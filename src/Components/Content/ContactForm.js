@@ -1,6 +1,7 @@
 import "./ContactForm.css";
 import useInput from "../../Hooks/use-input";
 
+// custom input hook provides cleaner input sections with onclick feedback for validity
 const ContactForm = (props) => {
   const {
     value: enteredName,

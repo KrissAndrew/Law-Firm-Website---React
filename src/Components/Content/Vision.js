@@ -2,7 +2,7 @@ import classes from "./Vision.module.css";
 
 const Vision = () => {
   return (
-    <section className={classes.Vision}>
+    <section className={classes.Vision} id="vision">
       <div className={classes.Content}>
         <div className={classes.Heading}>Our Vision</div>
         <div className={classes.VisionText}>

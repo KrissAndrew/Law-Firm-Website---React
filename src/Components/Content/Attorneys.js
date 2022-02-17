@@ -9,7 +9,7 @@ const partnerImg3 =
 
 const Attorneys = () => {
   return (
-    <section className={classes.Attorneys}>
+    <section className={classes.Attorneys} id="attorneys">
       <div className={classes.Heading}>Our Attorneys</div>
       <div className={classes.AttorneyInfo}>
         <div className={classes.Attorney}>
